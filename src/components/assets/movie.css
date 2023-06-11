@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+.col {
+    margin-bottom: 30px !important;
+    min-height: 380px;
+    max-height: min-content;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.card {
+    width: 15rem;
+    border: 1px solid #7c7c7c;
+    box-shadow: 1px 1px 8px #000000;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: 1.5px solid #B71540;
+}
+
+.card-body {
+    height: 100px;
+    margin: 0;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #2C3A47;
+    min-height: auto;
+    max-height: 65px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.card-title,
+.card-date {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+/* responsive code */
+
+@media only screen and (max-width:770px) {
+    .col {
+        height: min-content !important;
+        
+    }
+
+    .card {
+        width: 80% !important;
+    }
+
+    .card img {
+        height: 300px;
+        object-fit: cover;
+    }
+}

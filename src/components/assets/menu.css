@@ -1,0 +1,87 @@
+nav {
+    background-color: #10151A;
+    height: 70px;
+    box-shadow: 1px 1px 4px #000000;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+nav div
+{
+    background-color: #10151A;
+}
+
+nav .navbar-brand
+{
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 28px;
+    color: #1F0032;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00FFD1;
+}
+
+nav .navbar-brand:hover
+{
+    color: #1F0032;
+}
+
+nav .navbar-nav > li a{
+    color: #FFFFFF !important;
+}
+
+nav .navbar-nav > li a:hover
+{
+    color: #B71540 !important;
+}
+
+.search-box
+{
+    height: 45px !important;
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000F14;
+    box-shadow: 0px 0px 4px #FFFFFF;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.search-box input
+{
+    background-color: #000F14;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    outline: none;
+    border: none;
+}
+
+.search-box button
+{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.search-box i
+{
+    background-color: #000F14;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+
+
+/* Responsive adjustment code  */
+
+@media only screen and (max-width:992px) {
+    .search-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}
