@@ -1,10 +1,6 @@
-import { useEffect } from "react";
-
 const MovieOverview = (props)=>{
     
-    useEffect(()=>{
-        props.getCategory(props.movie.original_title);
-    },[]);
+    props.getCategory(props.movie.original_title);
 
     return <>
         <div className="movie-overview" style={{backgroundImage:`url(${props.thumb})`}}>
