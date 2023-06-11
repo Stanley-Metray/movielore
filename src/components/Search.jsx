@@ -1,10 +1,9 @@
 import AllMovies from "./AllMovies";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Search = (props) => {
 
     const [movies, setMovies] = useState([]);
-    const [movie, setMovie] = useState({});
     const queryParameters = new URLSearchParams(window.location.search);
     const searchTitle = queryParameters.get("title");
     
