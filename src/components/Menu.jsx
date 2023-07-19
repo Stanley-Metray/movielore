@@ -1,10 +1,6 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Menu = (props) => {
-
-    const [searchTitle, setSearchTitle] = useState("");
-
     const getCategory = (e) => {
         props.getCategory(e.target.getAttribute("data-bs-name"));
     }
