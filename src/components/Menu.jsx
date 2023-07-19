@@ -40,7 +40,7 @@ const Menu = (props) => {
                             <Link onClick={getCategory} className="nav-link" to="/upcoming" data-bs-name="upcoming">Upcoming</Link>
                         </li>
                     </ul>
-                    <form autoComplete="off" className="me-4 search-box" role="search" method="get" onSubmit={submitHandler}>
+                    <form autoComplete="off" className="me-4 search-box" role="search" method="get" onClick={()=>{alert("Oops! sorry we are working on this feature")}}>
                         <input type="text" name="searchQuery" placeholder="Search movie by name" aria-label="Search" onChange={getQuery} />
                         <button type="submit"><i className="bi bi-search"></i></button>
                     </form>

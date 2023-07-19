@@ -26,6 +26,7 @@ nav .navbar-brand
 
 nav .navbar-brand:hover
 {
+    text-decoration: underline;
     color: #1F0032;
 }
 

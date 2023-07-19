@@ -7,7 +7,6 @@ const Search = (props) => {
     const queryParameters = new URLSearchParams(window.location.search);
     const searchTitle = queryParameters.get("title");
     
-    
     const options = {
         method: 'GET',
         headers: {
