@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
 
 const Menu = (props) => {
+
     const getCategory = (e) => {
         props.getCategory(e.target.getAttribute("data-bs-name"));
-    }
-
-    const getQuery = (e) => {
-        setSearchTitle(e.target.value);
     }
 
     // const submitHandler = (e) => {
