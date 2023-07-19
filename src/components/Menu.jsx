@@ -13,10 +13,10 @@ const Menu = (props) => {
         setSearchTitle(e.target.value);
     }
 
-    const submitHandler = (e) => {
-        e.preventDefault();
-        window.location.replace("/search?title="+searchTitle);
-    }
+    // const submitHandler = (e) => {
+    //     e.preventDefault();
+    //     window.location.replace("/search?title="+searchTitle);
+    // }
 
     return <>
         <nav className="navbar navbar-dark navbar-expand-lg p-0">
