@@ -34,7 +34,7 @@ const Menu = (props) => {
                         </li>
                     </ul>
                     <form autoComplete="off" className="me-4 search-box" role="search" method="get" onClick={()=>{alert("Oops! sorry we are working on this feature")}}>
-                        <input type="text" name="searchQuery" placeholder="Search movie by name" aria-label="Search" onChange={getQuery} />
+                        <input type="text" name="searchQuery" placeholder="Search movie by name" aria-label="Search"/>
                         <button type="submit"><i className="bi bi-search"></i></button>
                     </form>
                 </div>
